@@ -1,0 +1,11 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+
+  .container {
+    max-width: 100rem;
+    width: 100rem;
+  }
+}

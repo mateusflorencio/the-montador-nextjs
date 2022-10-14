@@ -1,0 +1,29 @@
+@import "../../../styles/colors.scss";
+
+.trajetory {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+
+    .content{
+      display: flex;
+      flex-direction: column;
+      max-width: 41.3rem;
+      height: 100%;
+      align-self: center;
+
+      h2{
+        font-size: 3.2rem;
+        color: $blue-700;
+        font-weight: bolder;
+        margin-bottom: 0;
+      }
+
+      p{
+        font-size: 2.4rem;
+        font-weight: lighter;
+        text-align: left;
+      }
+    }
+  }

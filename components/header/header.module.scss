@@ -1,27 +1,32 @@
-$blue-700: #1d4ed8;
+@import "../../styles/colors.scss";
+
 .wrap {
-  max-width: 100rem;
+  background-color: $blue-100;
   width: 100%;
-  margin: auto;
-  height: 6rem;
-  font-size: 1.6rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
 
-  nav {
-    font-size: 1.4rem;
-    position: absolute;
-    cursor: pointer;
-  }
+  .container {
+    max-width: 100rem;
+    font-size: 1.6rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    height: 6rem;
 
-  button {
-    right: 0;
-    position: absolute;
-    background-color: $blue-700;
-    width: 8rem;
-    height: 3.2rem;
-    border-radius: 0.8rem;
+    nav {
+      font-size: 1.4rem;
+      position: absolute;
+      cursor: pointer;
+    }
+
+    button {
+      right: 0;
+      position: absolute;
+      background-color: $blue-700;
+      width: 8rem;
+      height: 3.2rem;
+      border-radius: 0.8rem;
+    }
   }
 }
