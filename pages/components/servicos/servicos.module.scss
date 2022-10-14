@@ -1,0 +1,24 @@
+@import "../../../styles/colors.scss";
+
+.wrap {
+  background-color: $blue-900;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+
+  h2 {
+    font-size: 3.2rem;
+    color: $white;
+  }
+
+  .cards {
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+  }
+}
