@@ -3,6 +3,7 @@ import Parafusadeira from "../../../public/parafusadeira.png"
 import Onda from "../../../public/onda.png"
 
 import Image from "next/image"
+import { Button } from "../button/button"
 
 
 export const Hero  = ()=>(
@@ -11,7 +12,7 @@ export const Hero  = ()=>(
             Oferecemos Serviços Acessíveis de Montagem de Móveis Para sua{" "}
             <label>Casa</label>
           </p>
-          <button>Fazer orçamento agora</button>
+          <Button  text="Fazer orçamento agora"/>
 
           <div className={Styles.presentatio}>
             <div className={Styles.img_main_wrap}>
