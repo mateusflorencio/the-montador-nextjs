@@ -1,4 +1,4 @@
-@import "../../../styles/colors.scss";
+@import "../../styles/colors.scss";
 
 .btn {
     background-color: $orange-500;
@@ -9,4 +9,8 @@
     height: 4.6rem;
     border-radius: 2rem;
     margin-top: 2rem;
+
+    &:hover{
+      background-color: $orange-600;
+    }
   }

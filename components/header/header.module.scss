@@ -28,6 +28,10 @@
       width: 8rem;
       height: 3.2rem;
       border-radius: 0.8rem;
+
+      &:hover{
+        background-color: $blue-900;
+      }
     }
   }
 }

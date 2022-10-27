@@ -1,4 +1,4 @@
-import { Button } from "../../pages/components/button/button"
+import { Button } from "../button/button"
 import Styles from "./footer.module.scss"
 
 export const Footer = () => {

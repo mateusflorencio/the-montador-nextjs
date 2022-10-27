@@ -1,6 +1,5 @@
 import Styles from "./hero.module.scss";
-import { Button } from "../button/button";
-
+import { Button } from "../../../components/button/button"
 export const Hero = () => (
   <section className={Styles.hero}>
       <p>
