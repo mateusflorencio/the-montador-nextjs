@@ -5,7 +5,8 @@ import Styles from "../styles/home.module.scss"
 import { Hero } from "./components/hero/hero"
 import { Trajetory } from "./components/trajetory/trajetory"
 import { Servicos } from "./components/servicos/servicos"
-import { Brands } from "./components/marcas/marcas"
+import { Brands } from "./components/brands/marcas"
+import { Numbers } from "./components/numbers/numbers"
 
 const Home: NextPage = () => {
   return (
@@ -18,6 +19,7 @@ const Home: NextPage = () => {
       </div>
       <Servicos/>
       <Brands/>
+      <Numbers/>
     </div>
     </Layout>
   )
