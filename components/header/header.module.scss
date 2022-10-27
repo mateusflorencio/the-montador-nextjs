@@ -3,6 +3,7 @@
 .wrap {
   background-color: $blue-100;
   width: 100%;
+  padding: 0 2rem;
 
   .container {
     max-width: 100rem;
@@ -27,6 +28,14 @@
       width: 8rem;
       height: 3.2rem;
       border-radius: 0.8rem;
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .wrap {
+    button {
+      display: none;
     }
   }
 }

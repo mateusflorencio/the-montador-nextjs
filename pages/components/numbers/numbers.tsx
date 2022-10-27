@@ -2,11 +2,11 @@ import Styles from "./numbers.module.scss";
 
 export const Numbers = () => {
   const obj = [
-    { title: "4mil", sub_title: "Móveis Montado" },
+    { title: "4mil", sub_title: "Móveis Montados" },
     { title: "1.7mil", sub_title: "Casas Visitadas" },
-    { title: "96mil", sub_title: "Km andados" },
-    { title: "9", sub_title: "cidades visitadas" },
-    { title: "10mil", sub_title: "Horas trabalhadas" },
+    { title: "96mil", sub_title: "Km Andados" },
+    { title: "9", sub_title: "cidades Visitadas" },
+    { title: "10mil", sub_title: "Horas Trabalhadas" },
     { title: "&", sub_title: "muito mais" },
   ];
 

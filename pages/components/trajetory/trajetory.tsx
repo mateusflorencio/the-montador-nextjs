@@ -4,7 +4,7 @@ import TrajetoryImage from "../../../public/trajetory.svg"
 import Image from "next/image"
 
 export const Trajetory = () => (
-  <section className={Styles.trajetory}>
+  <section className={Styles.wrap}>
       <div className={Styles.content}>
         <h2>Uma trajetória incrível</h2>
         <p>
@@ -12,14 +12,12 @@ export const Trajetory = () => (
           clientes e empresas.
         </p>
       </div>
-      <div>
         <Image
-          className={Styles.onda}
+          className={Styles.img}
           src={TrajetoryImage}
           width={382}
           height={413}
-          alt="pessoa em escolhendo o caminho"
+          alt="pessoa escolhendo o caminho"
         />
-    </div>
   </section>
 )
