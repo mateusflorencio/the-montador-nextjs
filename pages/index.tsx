@@ -7,6 +7,7 @@ import { Trajetory } from "./components/trajetory/trajetory"
 import { Servicos } from "./components/servicos/servicos"
 import { Brands } from "./components/brands/marcas"
 import { Numbers } from "./components/numbers/numbers"
+import { Reviews } from "./components/reviews/reviews"
 
 const Home: NextPage = () => {
   return (
@@ -20,6 +21,7 @@ const Home: NextPage = () => {
       <Servicos/>
       <Brands/>
       <Numbers/>
+      <Reviews/>
     </div>
     </Layout>
   )

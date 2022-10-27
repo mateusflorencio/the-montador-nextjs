@@ -1,0 +1,51 @@
+@import "../../../styles/colors.scss";
+
+.wrap {
+  padding: 10rem;
+  width: 100%;
+  max-width: 100rem;
+  display: flex;
+  flex-direction: column;
+  h2 {
+    color: $blue-900;
+    font-size: 3.2rem;
+  }
+  .wrap_contents {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    .card {
+      padding: 3rem;
+      width: 100%;
+      max-width: 30rem;
+      height: 30rem;
+      border-radius: 0.8rem;
+      background: #dbeafe;
+      margin: 1.5rem;
+
+      display: flex;
+      flex-direction: column;
+      div{
+        
+        height: 10%;
+      }
+
+      p {
+        font-size: 1.4rem;
+        margin-top: 2rem;
+        height: 80%;
+      }
+      strong {
+        font-size: 1.4rem;
+        position: relative;
+        top: 0rem;
+        
+        height: 10%;
+      }
+    }
+  }
+}
