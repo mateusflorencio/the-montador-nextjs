@@ -8,6 +8,7 @@ import { Servicos } from "./components/servicos/servicos"
 import { Brands } from "./components/brands/marcas"
 import { Numbers } from "./components/numbers/numbers"
 import { Reviews } from "./components/reviews/reviews"
+import { Footer } from './components/footer/footer'
 
 const Home: NextPage = () => {
   return (
@@ -22,6 +23,7 @@ const Home: NextPage = () => {
       <Brands/>
       <Numbers/>
       <Reviews/>
+      <Footer/>
     </div>
     </Layout>
   )
