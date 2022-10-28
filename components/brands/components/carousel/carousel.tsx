@@ -10,7 +10,7 @@ export const Carousel = ({ brands }: Props) => {
   return (
     <div className={Styles.wrap}>
       <div className={Styles.carousel}>
-        {brands && brands.map((i) => <ImageCarousel key={String(i)} img={i} />)}
+        {brands && brands.map((i, n) => <ImageCarousel key={n}  img={i} />)}
       </div>
     </div>
   )

@@ -1,5 +1,5 @@
 import Styles from "./trajetory.module.scss"
-import TrajetoryImage from "../../../public/trajetory.svg"
+import TrajetoryImage from "../../public/trajetory.svg"
 
 import Image from "next/image"
 

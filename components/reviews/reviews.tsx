@@ -1,5 +1,5 @@
 import Styles from "./reviews.module.scss";
-import Star from "../../../public/star.png";
+import Star from "../../public/star.png";
 import Image from "next/image";
 
 export const Reviews = () => {
