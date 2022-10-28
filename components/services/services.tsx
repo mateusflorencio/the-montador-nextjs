@@ -1,5 +1,5 @@
 import { Card } from "./components/card"
-import Styles from "./servicos.module.scss"
+import Styles from "./services.module.scss"
 import Image from "next/image"
 
 import Multiuso from "../../public/multiuso.svg"
@@ -7,7 +7,7 @@ import Truck from "../../public/truck.png"
 import Instalacoes from "../../public/instalacoes.png"
 import Martelo from "../../public/martelo.png"
 
-export const Servicos = () => {
+export const Services = () => {
   return (
     <section className={Styles.wrap}>
       <h2>Nosso Serviços</h2>

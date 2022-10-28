@@ -4,7 +4,7 @@ import { Header } from "../components"
 import Styles from "../styles/home.module.scss"
 import { Hero } from "../components/hero/hero"
 import { Trajetory } from "../components/trajetory/trajetory"
-import { Servicos } from "../components/servicos/servicos"
+import { Services } from "../components/services/services"
 import { Brands } from "../components/brands/marcas"
 import { Numbers } from "../components/numbers/numbers"
 import { Reviews } from "../components/reviews/reviews"
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
       <Header />
       <Hero />
       <Trajetory />
-      <Servicos/>
+      <Services/>
       <Brands/>
       <Numbers/>
       <Reviews/>
